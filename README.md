@@ -4,6 +4,6 @@ Using the JDA library for Java you can create a Discord bot which responds to wh
 
 Commands:
   
-  /enable [message] - Allows you to set a message that will be displayed when a user pings you
+  /enable [message] - Allows you to set a message to be displayed when a user pings you
   
   /shutup           - Stops the replying and deletes your preset message
