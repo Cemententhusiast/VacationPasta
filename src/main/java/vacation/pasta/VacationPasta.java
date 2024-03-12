@@ -26,7 +26,7 @@ public class VacationPasta extends ListenerAdapter {
 
         JDA jda = JDABuilder.createDefault(token, GatewayIntent.GUILD_MESSAGES, GatewayIntent.MESSAGE_CONTENT, GatewayIntent.GUILD_MEMBERS)
                 .addEventListeners(new VacationPasta())
-                .setActivity(Activity.playing("Patrolling people's vacations..."))
+                .setActivity(Activity.playing("STATUS_MESSAGE"))
                 .build();
 
         jda.updateCommands().addCommands(
